@@ -144,3 +144,32 @@
   });      
 
 }(jQuery));
+
+
+$('.contact').on('submit',function(e){
+  //optional validation code here
+
+  e.preventDefault();
+
+  $.ajax({
+      url: "https://script.google.com/macros/s/AKfycbxPBhVsCuH3Wn2-2MiF0OpZmfTfv_jW5QtyNlfTvdKe4GXdLIwLuWrLF88GiSv9QsQN/exec",
+      method: "POST",
+      dataType: "json",
+      data: $(".contact").serialize(),
+      success: function(response) {
+          
+          if(response.result == "success") {
+              $('.contact1-form')[0].reset();
+              alert('Thank you for contacting us.');
+              return true;
+          }
+          else {
+              alert("Something went wrong. Please try again.")
+          }
+      },
+      error: function() {
+          
+          alert("Something very wrong. Please try again.")
+      }
+  })
+})
