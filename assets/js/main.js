@@ -146,9 +146,12 @@
 }(jQuery));
 
 
-$('.contact').on('submit',function(e){
+
+function myFunc(){
   //optional validation code here
 
+$('.contact').on('submit',function(e){
+  //optional validation code here
   e.preventDefault();
 
   $.ajax({
@@ -173,3 +176,7 @@ $('.contact').on('submit',function(e){
       }
   })
 })
+alert('Submitted Sucessfully');
+
+// document.getElementById("contactForm").reset();
+}
