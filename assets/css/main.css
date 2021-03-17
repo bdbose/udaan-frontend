@@ -1974,7 +1974,7 @@ h5{
   font-weight: 300;
   line-height: 0.5;
   margin: 0 0 1em 0;
-  font-size: 420.58;
+  font-size: 42.58;
 }
 h2 {
   color: #5385c1;
@@ -2150,7 +2150,8 @@ input[type=text], select, textarea {
         
 .e2-35.x-col { 
   z-index: 1; 
-  min-height: 240px;
+  min-height: 200px;
+  max-height: 300px;
   min-width: 340px; 
 
   border-width: 1px; 
@@ -2218,8 +2219,11 @@ input[type=text], select, textarea {
 .e2-37.x-col {
 
   z-index: 1; 
-    min-height: 370px;
+  min-height: 200px;
+
   min-width: 340px;
+  max-height: 300px;
+
 
   border-width: 1px; 
   border-style: solid; 
@@ -2273,8 +2277,11 @@ input[type=text], select, textarea {
 
 .e2-39.x-col { 
   z-index: 1; 
-  min-height: 370px;
+  min-height: 200px;
+
   min-width: 340px;
+  max-height: 300px;
+
 
   border-width: 1px; 
   border-style: solid; 
