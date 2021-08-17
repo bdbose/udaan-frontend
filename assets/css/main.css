@@ -2366,6 +2366,14 @@ input[type=text], select, textarea {
   padding-left: 25px;
 } 
 
+.custom_tagline{
+    font-style: italic;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-top: 1em;
+    word-spacing: 1.5px;
+}
+
 @media (min-width: 1200px){     
 .four  { 
   flex-basis: calc(25% - 30px);
