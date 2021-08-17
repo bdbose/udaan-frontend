@@ -491,6 +491,16 @@ hr {
 }
 
 
+.custom_card{
+  min-height: 50px !important;
+  max-height: 100px !important;
+  height: 100px !important;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .navbar-brand {
   position: relative;
   padding: 0px;
