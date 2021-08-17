@@ -474,6 +474,15 @@ hr {
   background: #3d60f4;
 }
 
+
+.custom_tagline{
+    font-style: italic;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-top: 1em;
+    word-spacing: 1.5px;
+}
+
 .navbar-brand {
   position: relative;
   padding: 0px;
@@ -2365,14 +2374,6 @@ input[type=text], select, textarea {
   padding-bottom: 25px; 
   padding-left: 25px;
 } 
-
-.custom_tagline{
-    font-style: italic;
-    font-size: 1.15em;
-    font-weight: 700;
-    margin-top: 1em;
-    word-spacing: 1.5px;
-}
 
 @media (min-width: 1200px){     
 .four  { 
