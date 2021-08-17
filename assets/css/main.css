@@ -483,6 +483,14 @@ hr {
     word-spacing: 1.5px;
 }
 
+.custom_avatar{
+  width: 5em;
+  height: 5em;
+  border-radius: 2.5em;
+  margin: 1.5em auto
+}
+
+
 .navbar-brand {
   position: relative;
   padding: 0px;
