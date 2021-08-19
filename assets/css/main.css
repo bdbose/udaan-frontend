@@ -500,6 +500,10 @@ hr {
   justify-content: center;
 }
 
+.card{
+  text-align: center;
+}
+
 
 .navbar-brand {
   position: relative;
