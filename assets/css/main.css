@@ -487,7 +487,8 @@ hr {
   width: 5em;
   height: 5em;
   border-radius: 2.5em;
-  margin: 1.5em auto
+  margin: 1.5em auto;
+  object-fit: cover
 }
 
 
